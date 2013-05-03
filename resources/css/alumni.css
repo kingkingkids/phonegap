@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.label {border-top:1px solid #fff8eb !important;border-left:1px solid #fff8eb  !important;border-bottom:1px solid #e6dac3  !important;border-right:1px solid #ede9d5 !important;border-radius:0 !important;}
+.label span {display:block;width:100%;text-align:center;color:#575757;font-size:14px/20px Microsoft YaHei;position:absolute;bottom:0;}
+.ico001 {background:url(../images/ico001.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico002 {background:url(../images/ico002.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico003 {background:url(../images/ico003.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico004 {background:url(../images/ico004.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico005 {background:url(../images/ico005.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico006 {background:url(../images/ico006.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico007 {background:url(../images/ico007.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico008 {background:url(../images/ico008.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.ico009 {background:url(../images/ico009.png) no-repeat center center,url(../images/bg_03.png) !important;}
+.myToolbar .x-pack-start{-webkit-box-pack:center !important;}
