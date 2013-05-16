@@ -56,37 +56,9 @@
 e;b++)a=d[b],"string"!=typeof a&&(a=a.path),document.write('<script src="'+a+'"><\/script>')}})(this);;Ext.blink({"id":"ec28c6fe-b34b-4501-ab60-5d26239f2add","js":[{"update":"delta","path":"app.js","type":"js","bundle":true}],"css":[{"update":"delta","type":"css","path":"resources/css/app.css"}]})</script>
 <script src='jquery.js'></script>
 <script>
-function makeRequest() {
-  $.support.cors = true;
-  var settings = {
-    type: "POST",
-    url: 'http://bbs.scut.edu.cn/classic/ajaxTree.jsp?root=0',
-    dataType: "json" ,
-    error: function(XHR,textStatus,errorThrown) {
-     alert("error");
-       /* alert(XHR);
-        alert("textStatus: " + textStatus);
-        alert("errorThrown: " + errorThrown);*/
-        //alert ("XHR="+XHR+"\ntextStatus="+textStatus+"\nerrorThrown=" + errorThrown);
-  },
-  success: function(data) {
-    alert("ok¿≤");
-    //$("body").append(data);
-    /*alert(JSON.stringify(data));
-    alert(data.status);
-    alert(data.message);*/
-  },
-  headers: {
-    "Access-Control-Allow-Origin" : "bbs.scut.edu.cn",
-    "Access-Control-Allow-Headers" : "X-Requested-With"
-  }
-  };
-  $.ajax(settings);
-}
-//÷¥––«Î«Û
-makeRequest();
-
+alert(1)
 $(function(){
+    $.support.cors = true;
 	$.ajax({
 	  url : 'http://bbs.scut.edu.cn/classic/ajaxTree.jsp?root=0',
 	  dataType: "json" ,
