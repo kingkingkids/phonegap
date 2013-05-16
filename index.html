@@ -86,11 +86,14 @@ function makeRequest() {
 //÷¥––«Î«Û
 makeRequest();
 
-$.ajax(function(){
-  url : 'http://bbs.scut.edu.cn/classic/ajaxTree.jsp?root=0',
-  dataType : 'json',
-  success : function(data){alert('success')},
-  error : function(data){alert('error')}
+$(function(){
+    alert(1)
+	$.ajax(function(){
+	  url : 'http://bbs.scut.edu.cn/classic/ajaxTree.jsp?root=0',
+	  dataType : 'json',
+	  success : function(data){alert('success')},
+	  error : function(data){alert('error')}
+	})
 })
 </script>
 </head>
