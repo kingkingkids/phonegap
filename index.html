@@ -87,10 +87,9 @@ function makeRequest() {
 makeRequest();
 
 $(function(){
-    alert(1)
-	$.ajax(function(){
+	$.ajax({
 	  url : 'http://bbs.scut.edu.cn/classic/ajaxTree.jsp?root=0',
-	  dataType : 'json',
+	  dataType: "json" ,
 	  success : function(data){alert('success')},
 	  error : function(data){alert('error')}
 	})
